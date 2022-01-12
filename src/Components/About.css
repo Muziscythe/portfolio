@@ -1,0 +1,80 @@
+.about {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  margin: 0 10px;
+  padding-bottom: 40px;
+}
+.about > h4 {
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 5%;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.about__profileContent {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.profilePic {
+  height: 250px;
+  object-fit: contain;
+  margin: 15px 15px 3px;
+}
+
+.profile__brief {
+  width: 230px;
+  margin: 50px auto 50px;
+  box-shadow: 0.5px 0.5px 3px 2px #eee;
+}
+.about__profileSkills > img {
+  width: 40px;
+  object-fit: contain;
+  margin: 10px 10px 25px;
+}
+
+.about__detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  max-width: 700px;
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 8px;
+}
+.card-body {
+  text-align: justify;
+}
+.card-body > p {
+  line-height: 1.8;
+}
+
+.card-header {
+  display: flex;
+}
+
+.red,
+.yellow,
+.green {
+  width: 9px;
+  height: 9px;
+  margin: 3px 4px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.yellow {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.socials > a {
+  text-decoration: none !important;
+}

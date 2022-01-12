@@ -1,0 +1,21 @@
+.projects {
+  min-height: 80vh;
+  background-color: #efe1bd;
+  /* padding: 30px auto; */
+}
+
+.projects > h4 {
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 5%;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.projects__details {
+  /* margin-bottom: 60px; */
+  margin-top: 60px;
+}
+
+/* .row{
+  margin: auto 0;
+} */

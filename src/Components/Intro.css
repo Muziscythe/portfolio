@@ -1,0 +1,50 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  background-color: #e9d5a1;
+  height: 100vh;
+}
+.intro__topleft {
+  background-color: black;
+  width: 170px;
+  height: 170px;
+  transform: rotate(45deg);
+  position: absolute;
+  z-index: 0;
+  margin-left: -85px;
+  margin-top: -85px;
+}
+.intro__git {
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+.intro__github {
+  height: 60px;
+  width: 60px;
+  background-color: black;
+  z-index: 2;
+}
+
+.intro__content {
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
+.intro__detail {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.intro__detail > img {
+  width: 150px;
+  object-fit: contain;
+}
+
+.intro__detail > h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}

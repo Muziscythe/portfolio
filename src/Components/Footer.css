@@ -1,0 +1,22 @@
+.footer {
+  min-height: 18vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyRights {
+  font-size: 0.65rem;
+}
+.footer__links {
+  display: flex;
+}
+
+.footer__links > a {
+  margin: 20px;
+  color: white;
+  font-size: 1.5rem;
+}

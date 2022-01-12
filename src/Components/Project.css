@@ -1,0 +1,37 @@
+.project {
+  /* padding: 10px; */
+  /* text-align: center; */
+  /* margin: 10px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project > a {
+  text-decoration: none !important;
+  color: black;
+}
+.project__overview {
+  background-color: white;
+  margin-bottom: 4rem;
+  width: 320px;
+  padding-bottom: 10px;
+  box-shadow: 0.5px 0.5px 3px 2px #bbb;
+  transition: all 150ms ease-in-out;
+}
+.project__overview:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  box-shadow: 0 5px 12px 2px #767676;
+}
+.project__image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  background-color: black;
+}
+.project__title {
+  margin: 10px auto 10px;
+}

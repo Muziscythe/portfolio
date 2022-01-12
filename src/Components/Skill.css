@@ -1,0 +1,18 @@
+.skill__image {
+  width: 40px;
+  height: 60px;
+  object-fit: contain;
+  background-color: #222222;
+}
+.skill__title {
+  color: white;
+  font-size: 0.75rem;
+  margin-top: 0;
+}
+.skill {
+  padding: 5px 25px;
+}
+.list-inline-item {
+  background-color: #222222;
+  border-radius: 8px;
+}

@@ -1,0 +1,27 @@
+.experience {
+  min-height: 90vh;
+  background-color: #efe1bd;
+}
+
+.experience > h2 {
+  padding-top: 5%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.experience__details {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 20px;
+  max-width: 1000px;
+  font-size: 0.9rem;
+}
+
+.experience__company {
+  text-align: left;
+}
+.experience__skills {
+  text-align: left;
+}
